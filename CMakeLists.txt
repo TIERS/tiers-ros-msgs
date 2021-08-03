@@ -53,7 +53,7 @@ generate_messages(
 ## catkin specific configuration ##
 ###################################
 catkin_package(
-  LIBRARIES tiers_msgs
+  LIBRARIES tiers_ros_msgs
   CATKIN_DEPENDS geometry_msgs mavros_msgs nav_msgs roscpp sensor_msgs std_msgs
 )
 
