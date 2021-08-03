@@ -30,6 +30,7 @@ add_service_files(
   DIRECTORY srv/offboard_control
   FILES
   flight_mode.srv
+  offboard_state.srv
 )
 
 ## Generate actions in the 'action' folder
